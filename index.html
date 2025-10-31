@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TaskNest - AI-Powered Productivity Platform</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="video-container">
+        <div class="scene" id="scene1">
+            <div class="content fade-in">
+                <div class="character">👩‍💼</div>
+                <h1>Meet Riya</h1>
+                <p>A project manager overwhelmed by scattered workflows, missed updates, and endless meetings.</p>
+            </div>
+        </div>
+
+        <div class="scene" id="scene2">
+            <div class="content fade-in">
+                <div class="logo">🪺</div>
+                <h1>TaskNest Steps In</h1>
+                <p>An AI-powered productivity platform designed for busy teams.</p>
+            </div>
+        </div>
+
+        <div class="scene" id="scene3">
+            <div class="content fade-in">
+                <div class="features">
+                    <div class="feature-item slide-in">
+                        <span class="icon">✓</span>
+                        <span>Task Management</span>
+                    </div>
+                    <div class="feature-item slide-in delay-1">
+                        <span class="icon">💬</span>
+                        <span>Team Communication</span>
+                    </div>
+                    <div class="feature-item slide-in delay-2">
+                        <span class="icon">🔔</span>
+                        <span>Smart Reminders</span>
+                    </div>
+                </div>
+                <p class="subtitle">All in one place</p>
+            </div>
+        </div>
+
+        <div class="scene" id="scene4">
+            <div class="content fade-in">
+                <div class="ai-brain">🤖</div>
+                <h1>AI-Powered Intelligence</h1>
+                <ul class="benefits">
+                    <li class="pop-in">Prioritizes urgent tasks</li>
+                    <li class="pop-in delay-1">Tracks progress automatically</li>
+                    <li class="pop-in delay-2">Delivers actionable insights</li>
+                </ul>
+                <p class="subtitle">Stay focused and meet deadlines without burnout</p>
+            </div>
+        </div>
+
+        <div class="scene" id="scene5">
+            <div class="content fade-in">
+                <h1>No More Juggling</h1>
+                <div class="comparison">
+                    <div class="before">
+                        <h3>Before</h3>
+                        <p>❌ Multiple apps</p>
+                        <p>❌ Missed updates</p>
+                        <p>❌ Confusion</p>
+                    </div>
+                    <div class="arrow">→</div>
+                    <div class="after">
+                        <h3>After</h3>
+                        <p>✅ One platform</p>
+                        <p>✅ Real-time sync</p>
+                        <p>✅ Clarity</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="scene" id="scene6">
+            <div class="content fade-in">
+                <div class="benefits-grid">
+                    <div class="benefit-card zoom-in">
+                        <h2>Clarity</h2>
+                        <p>See everything at a glance</p>
+                    </div>
+                    <div class="benefit-card zoom-in delay-1">
+                        <h2>Control</h2>
+                        <p>Manage with confidence</p>
+                    </div>
+                    <div class="benefit-card zoom-in delay-2">
+                        <h2>Confidence</h2>
+                        <p>Lead your team efficiently</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="scene" id="scene7">
+            <div class="content fade-in">
+                <h1 class="cta-title">Ready to Work Smarter?</h1>
+                <div class="cta-box pulse">
+                    <h2>Visit tasknest.ai</h2>
+                    <p>Take charge of your productivity today</p>
+                </div>
+                <button class="replay-btn" onclick="restartVideo()">↻ Replay</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="controls">
+        <button id="playPauseBtn" onclick="togglePlayPause()">⏸ Pause</button>
+        <div class="progress-bar">
+            <div class="progress-fill" id="progressFill"></div>
+        </div>
+        <span id="timeDisplay">0:00 / 0:35</span>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
